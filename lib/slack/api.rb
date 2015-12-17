@@ -21,10 +21,5 @@ module Slack
     include Connection
     include Request
     include Endpoint
-
-    def realtime
-      url = post("rtm.start")["url"]
-      RealTime::Client.new(url)
-    end
   end
 end
