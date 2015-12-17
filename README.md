@@ -28,11 +28,8 @@ Or install it yourself as:
 ```ruby
 require "slack"
 
-Slack.configure do |config|
-  config.token = "YOUR_TOKEN"
-end
-
-Slack.auth_test
+client = Slack::Client.new token: token
+client.auth_test
 ```
 
 ## Examples
