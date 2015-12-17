@@ -20,9 +20,6 @@ Or install it yourself as:
 
     $ gem install slack-api
 
-## Documentation
-[http://www.rubydoc.info/gems/slack-api](http://www.rubydoc.info/gems/slack-api)
-
 ## Usage
 
 ```ruby
